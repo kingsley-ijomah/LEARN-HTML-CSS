@@ -1,0 +1,61 @@
+body {
+	background-color: #ccc;
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+article {
+	width: 600px;
+	background-color: #fff;
+	padding:40px;
+	margin: auto;
+}
+
+label {
+	min-width: 100px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+fieldset {
+	border: none;
+	border-top: 1px #000 solid;
+}
+
+legend {
+	font-weight: bold;
+}
+
+fieldset > p {
+	padding-left: 30px;
+}
+
+input[type="submit"] {
+	float: right;
+}
+
+footer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+	width: 250px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+

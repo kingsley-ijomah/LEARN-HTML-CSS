@@ -1,0 +1,32 @@
+body {
+	font-family: Arial;
+}
+
+#customer caption {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#customer td, #customer th {
+	border:1px #000 solid;
+	padding: 6px;
+}
+
+#customer {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.total_label {
+	text-align: right;
+}
+
+.total {
+	font-weight: bold;
+	color: green;
+}
+
+.alt {
+	background-color: #eee;
+}

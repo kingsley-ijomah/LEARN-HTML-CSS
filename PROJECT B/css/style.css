@@ -1,0 +1,76 @@
+#container {
+	background-color: #E6E6E6;
+	width: 645px;
+	padding: 13px;
+}
+
+header {
+	background-color: red;
+	padding: 20px 30px;
+	margin-bottom: 13px;
+}
+
+header h1 {
+	font-family: "Helvetica Neue", Times, Arial;
+	color: white;
+	margin: 0px;
+	font-size: 96px;
+	font-weight: 200;
+}
+
+img {
+	border: 10px #C0C0C0 solid;
+	margin-bottom: 13px;
+}
+
+#boxes > #left {
+	float: left;
+	width: 236px;
+	padding: 40px;
+	height: 190px;
+	background-color: red;
+}
+
+#boxes > #right {
+	float: right;
+	width: 236px;
+	height: 190px;
+	padding: 40px;
+	background-color: #7F7F7F;
+}
+
+#boxes:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#left > p {
+	font-family: "Helvetica Neue", Arial, Serif;
+	font-size: 48px;
+	margin: 0px;
+	font-weight: 100;
+	color: white;
+}
+
+#left > p span {
+	font-size: 70px;
+	font-weight: 200;
+}
+
+#right > p {
+	font-size: 14px;
+	font-family: Georgia, Arial, Serif;
+	color: #E6E6E6;
+	line-height: 16px;
+}
+
+#right > address {
+	font-family: "Helvetica Neue", Arial, Serif;
+	color: #E6E6E6;
+	font-style: normal;
+}
+
+
+
+

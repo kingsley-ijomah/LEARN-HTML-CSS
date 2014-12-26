@@ -1,0 +1,54 @@
+body {
+	font-family: "Arial";
+	padding-top: 100px;
+}
+
+article {
+	width: 300px;
+	margin: auto;
+}
+
+article h1 {
+	text-align: center;
+	font-family: "Helvetica Neue", Arial;
+	font-weight: normal;
+}
+
+form > fieldset {
+	border: none;
+	border-top: 1px #bbb solid;
+	border-bottom: 1px #bbb solid;
+	padding: 20px 0px;
+}
+
+form > fieldset > p {
+	text-align: center;
+}
+
+form > fieldset input {
+	width: 190px;
+	height: 22px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+footer > p {
+	text-align: center;
+	font-size: 12px;
+	color: #bbb;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 50px;
+}
+
+
+
+
+
+
+

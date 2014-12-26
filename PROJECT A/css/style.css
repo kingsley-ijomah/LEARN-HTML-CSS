@@ -1,0 +1,74 @@
+body {
+	font-family: Baskerville, Times, Serif;
+}
+
+#container {
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container > :first-child {
+	margin-bottom: 60px;
+}
+
+footer > p {
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+
+footer > p:last-child {
+	margin-bottom: 0px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+header > h1 {
+	font-size: 44px;
+	font-weight: normal;
+	color: #DC5A2F;
+	margin: 0px;
+}
+
+header p {
+	font-size: 20px;
+	margin: 2px 0px 0px 0px;
+	color: #5C422A;
+}
+
+article > p {
+	font-size: 15px;
+}
+
+article {
+	margin-bottom: 60px;
+}
+
+#container > :last-child {
+	font-size: 12px;
+}
+
+#report_name {
+	float: left;
+}
+
+#page_number {
+	float: right;
+}
+
+#container > :last-child:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
