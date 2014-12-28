@@ -1,0 +1,21 @@
+.profile {	
+	margin-right: 40px;
+}
+
+#container {
+	max-width: 1000px;
+}
+
+aside p {
+	font-size: 12px;
+}
+
+aside ul li {
+	float: left;
+	margin-right: 8px;
+}
+
+aside ul {
+	list-style: none;
+	padding: 0px;
+}

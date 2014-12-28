@@ -1,0 +1,8 @@
+.row {
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.row a {
+	text-decoration: underline;
+}
