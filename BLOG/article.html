@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
             <li><a href="posts.html">Posts</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="archive.html">Archive</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="login.html">Log In</a></li>
@@ -67,36 +67,68 @@
         </div>
 
         <div class="col-md-8">
-          <h1>Contact me</h1>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
           <div class="lead">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
-          
-          <hr>
-          <p>twitter: <a href="twitter.com/kingsleyijomah">@kingsleyijomah</a></p>
-          <p>linkedin: <a href="https://www.linkedin.com/pub/kingsley-ijomah/13/784/950">follow me on linkedIn</a></p>
-          <p>Github: <a href="https://github.com/kingsley-ijomah">follow me on github</a></p>
-          
-          <hr>
 
-          <div class="row">
-            <div class="col-md-9">
-              <form>
-                <h3>Send me a message</h3>
+          <div id="comments">
+            <h2>Comments</h2>
+
+            <div class="row">
+              <div class="col-md-11">
                 <p>
-                  <label class="sr-only">Your Name</label>
-                  <input type="email" class="form-control" placeholder="Your Name" required autofocus>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
+                <footer>
+                  <small><b>Kingsley Ijomah</b> Commented on: 8 Jan 2015</small>
+                </footer>
+                <hr>
+              </div>
+              <div class="col-md-1 comment-num">01</div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-11">
                 <p>
-                  <label class="sr-only">Your Message</label>
-                  <textarea class="form-control" placeholder="Your Message" id="textarea" required></textarea>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
-                <p><input type="submit" value="Send Message" class="btn btn-primary" required></p>
-              </form>
+                <footer>
+                  <small><b>Kingsley Ijomah</b> Commented on: 8 Jan 2015</small>
+                </footer>
+                <hr>
+              </div>
+              <div class="col-md-1 comment-num">02</div>
             </div>
           </div>
 
+          <form>
+            <h3>Have your say</h3>
+            <p>
+              <label class="sr-only">Message</label>
+              <textarea class="form-control" placeholder="Message" id="message" required autocomplete="false"></textarea>
+            </p>
+            
+
+            <p>
+              <label class="sr-only">Full name</label>
+              <input type="text" class="form-control" placeholder="Full Name" required>
+            </p>
+            <p>
+              <label class="sr-only">Email Address</label>
+              <input type="email" class="form-control" placeholder="Email Address" required>
+            </p>
+            <p>
+              <input type="submit" value="Send Message" class="btn btn-primary">
+            </p>
+          </form>
         </div>
       </div>
 
