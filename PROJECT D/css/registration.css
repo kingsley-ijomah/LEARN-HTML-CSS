@@ -12,7 +12,7 @@ h1 {
 article {
 	width: 600px;
 	background-color: #fff;
-	padding:40px;
+	padding: 40px;
 	margin: auto;
 }
 
@@ -31,7 +31,7 @@ legend {
 	font-weight: bold;
 }
 
-fieldset > p {
+fieldset p {
 	padding-left: 30px;
 }
 
@@ -49,13 +49,3 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
 	width: 250px;
 	height: 20px;
 }
-
-
-
-
-
-
-
-
-
-

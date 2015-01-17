@@ -23,3 +23,7 @@ aside ul {
 	list-style: none;
 	padding: 0px;
 }
+
+.new-post-link {
+	color: #337ab7 !important;
+}
