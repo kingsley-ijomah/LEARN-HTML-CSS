@@ -7,10 +7,6 @@
 	padding: 0px;
 }
 
-#side-menu .link {
-	padding: 12px 20px;
-}
-
 #side-menu h1{
 	color: #1f3647;
 	text-align: center;
@@ -23,22 +19,39 @@
 	padding: 0px;
 }
 
-#side-menu a {
+.link > a{
+	padding: 12px 20px;
 	text-decoration: none;
 	color: #9fb1c2;
 	display: block;
 }
 
-#side-menu a:hover {
+.link > a > span {
+	margin-right: 6px;
+}
+
+.link > a:hover {
 	background-color: #293846;
 	display: block;
+	color: #fff;
 }
 
-#side-menu ul li {
-	background-color: #2f4050;
+#side-menu .collapseable li {
+	padding-left: 20px;
+	padding-top: 5px;
 }
 
-#side-menu ul li {
-	padding: 0px;
-	margin: 0px;
+#side-menu .collapseable a {
+	color: #9fb1c2;
+	padding-left:20px;
+	text-decoration: none;
+	display: block
+}
+
+#side-menu .collapseable a:hover {
+	color: #fff;
+}
+
+#side-menu .link > ul > li {
+	padding-bottom: 10px;
 }
