@@ -114,11 +114,6 @@ html, body {
 	color: #888;
 }
 
-#nav-header ul li {
-	float: left;
-	margin-left: 35px;
-}
-
 #nav-header ul .label {
 	position: absolute;
 	margin-top: -30px;
@@ -139,6 +134,8 @@ html, body {
 }
 
 #nav-header ul li {
+	float: left;
+	margin-left: 15px;
 	height: 100%;
 	display: block;
 }
@@ -146,7 +143,11 @@ html, body {
 #nav-header ul a {
 	height: 100%;
 	display: block;
-	padding: 20px 0px 10px 0px;
+	padding: 20px 12px 10px 12px;
+}
+
+#nav-header ul a:hover {
+	background-color: #f3f3f4;
 }
 
 #nav-header #welcome {
