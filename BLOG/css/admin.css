@@ -1,10 +1,20 @@
-.container-fluid {
-	padding: 0px;
+html, body {
+	height: 100%;
+	min-height: 100%;
 }
+
+#container {
+	padding: 0px;
+	height: 100%;
+	min-height: 100%;
+}
+
 
 #side-menu {
 	background-color: #2f4050;
 	padding: 0px;
+	height: 100%;
+	min-height: 100%;
 }
 
 #side-menu h1{
@@ -19,10 +29,12 @@
 	padding: 0px;
 }
 
-.link > a{
+.link > a {
 	padding: 12px 20px;
 	text-decoration: none;
 	color: #9fb1c2;
+	font-weight: bold;
+	font-size: 13px;
 	display: block;
 }
 
@@ -36,6 +48,10 @@
 	color: #fff;
 }
 
+.active {
+	background-color: #293846;
+}
+
 #side-menu .collapseable li {
 	padding-left: 20px;
 	padding-top: 5px;
@@ -43,6 +59,7 @@
 
 #side-menu .collapseable a {
 	color: #9fb1c2;
+	font-size: 12px;
 	padding-left:20px;
 	text-decoration: none;
 	display: block
@@ -50,6 +67,11 @@
 
 #side-menu .collapseable a:hover {
 	color: #fff;
+}
+
+#side-menu .collapseable {
+	border-left: 4px solid #1ab394;
+	background-color: #293846;
 }
 
 #side-menu .link > ul > li {
