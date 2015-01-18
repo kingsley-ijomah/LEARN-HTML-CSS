@@ -90,12 +90,65 @@ html, body {
 
 #nav-header {
 	background-color: #fff;
-	padding: 10px;
+	/*padding: 15px 10px;*/
 	border-bottom: 1px solid #e7eaec;
 }
 
 #nav-header input[type="text"] {
+	padding-top: 17px;
+	vertical-align: center;
 	border: none;
 	width: 300px;
 	outline: none;
+}
+
+#nav-header ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #888;
+}
+
+#nav-header ul .glyphicon {
+	color: #888;
+}
+
+#nav-header ul li {
+	float: left;
+	margin-left: 35px;
+}
+
+#nav-header ul .label {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 10px;
+}
+
+.label-message {
+	background-color: #1ab394;
+}
+
+.logout {
+	color: #888;
+}
+
+.logout:hover {
+	text-decoration: none;
+	color: #888;
+}
+
+#nav-header ul li {
+	height: 100%;
+	display: block;
+}
+
+#nav-header ul a {
+	height: 100%;
+	display: block;
+	padding: 20px 0px 10px 0px;
+}
+
+#nav-header #welcome {
+	padding-top: 17px;
 }
