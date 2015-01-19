@@ -3,7 +3,7 @@ html, body {
 }
 
 .container-fluid {
-	height: 100%;
+	min-height: 100%;
 	padding: 0px;
 	background-color: #f3f3f4;
 }
@@ -159,12 +159,19 @@ html, body {
 
 #content {
 	margin: 20px 0px;
+	min-height: 70px;
+	padding-bottom: 30px;
+	border:1px red dotted;
 }
 
 #admin-footer {
-	bottom: 0px;
+	position:absolute;
+    bottom:0;
+    width:100%;
 	background-color: #fff;
 	padding: 10px;
+	font-size: 12px;
+	color: #888;
 }
 
 /** Setting Heights */
