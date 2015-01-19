@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	color: #888;
 }
 
 .container-fluid {
@@ -163,7 +164,8 @@ html, body {
 	margin: 20px 0px;
 	min-height: 70px;
 	padding-bottom: 30px;
-	border:1px red dotted;
+	background-color: #fff;
+	border-top: 4px #e7eaec solid;
 }
 
 #admin-footer {
@@ -189,4 +191,50 @@ html, body {
     display:table-cell;
     float:none;
     vertical-align: top;
+}
+
+#content header {
+	border-bottom: 1px #f3f3f4 solid;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	background-color: #1ab394;
+	border: 1px solid #1ab394;
+}
+
+.btn-primary:hover {
+	background-color: #1cc394;
+	border: 1px solid #1ab394;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.refresh {
+	padding: 4px 10px;
+	color: #888;
+	border: 1px #e7eaec solid;
+}
+
+.refresh:hover {
+	padding: 4px 10px;
+	background-color: #fff;
+	color: #888;
+	border: 1px #eee solid;
+}
+
+.go {
+	background-color: #1ab394;
+	color: #fff;
+	height: 31px;
+	border: 1px #f3f3f4 solid;
+}
+
+.search-field {
+	height: 31px;
+	border: 1px #e7eaec solid;
 }
