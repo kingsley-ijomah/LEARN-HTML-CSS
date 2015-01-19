@@ -1,21 +1,17 @@
 html, body {
 	height: 100%;
-	min-height: 100%;
 }
 
-#container {
-	padding: 0px;
+.container-fluid {
 	height: 100%;
-	min-height: 100%;
+	padding: 0px;
 	background-color: #f3f3f4;
 }
 
-
 #side-menu {
+	height: 100%;
 	background-color: #2f4050;
 	padding: 0px;
-	height: 100%;
-	min-height: 100%;
 }
 
 #side-menu h1{
@@ -62,6 +58,10 @@ html, body {
 	color: #fff;
 }
 
+.settings-btn > a:hover {
+	background-color: #1ab394;
+}
+
 #side-menu .collapseable li {
 	padding-left: 20px;
 	padding-top: 5px;
@@ -90,7 +90,6 @@ html, body {
 
 #nav-header {
 	background-color: #fff;
-	/*padding: 15px 10px;*/
 	border-bottom: 1px solid #e7eaec;
 }
 
@@ -143,7 +142,7 @@ html, body {
 #nav-header ul a {
 	height: 100%;
 	display: block;
-	padding: 20px 12px 10px 12px;
+	padding: 20px 0px 10px 18px;
 }
 
 #nav-header ul a:hover {
@@ -152,4 +151,32 @@ html, body {
 
 #nav-header #welcome {
 	padding-top: 17px;
+}
+
+#right-col{
+	height: 100%;
+}
+
+#content {
+	margin: 20px 0px;
+}
+
+#admin-footer {
+	bottom: 0px;
+	background-color: #fff;
+	padding: 10px;
+}
+
+/** Setting Heights */
+.container-md-height {
+    display:table;
+}
+
+.row-md-height {
+    display:table-row;
+}
+
+.col-md-height {
+    display:table-cell;
+    float:none;
 }

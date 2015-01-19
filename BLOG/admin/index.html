@@ -17,98 +17,124 @@
     <![endif]-->
   </head>
   <body>
-  	<div id="container">
-  	
-  		<div class="col-md-2" id="side-menu">
-  			<h1>Navigation</h1>
-  			<ul>
-  				<li class="link active">
-                    <a data-toggle="collapse" href="#collapse-dashboard" aria-expanded="false" aria-controls="collapse-dashboard">
-                    	<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-                    	Dashboard
-                    </a> 
-                    <ul class="collapse collapseable" id="collapse-dashboard">
-                        <li><a href="#">Create New</a></li>
-                        <li><a href="#">View Articles</a></li>
-                    </ul>
-                </li>
+  	<div class="container-fluid container-md-height">
+  		<div class="row clearfix row-md-height">
+	  		<div class="col-md-2 col-md-height" id="side-menu">
+	  			<h1>Navigation</h1>
+	  			<ul>
+	  				<li class="link active">
+	                    <a data-toggle="collapse" href="#collapse-dashboard" aria-expanded="false" aria-controls="collapse-dashboard">
+	                    	<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+	                    	Dashboard
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-dashboard">
+	                        <li><a href="#">Create New</a></li>
+	                        <li><a href="#">View Articles</a></li>
+	                    </ul>
+	                </li>
 
-  				<li class="link">
-                    <a data-toggle="collapse" href="#collapse-post" aria-expanded="false" aria-controls="collapse-post">
-                    	<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-                    	Articles
-                    	<span class="label label-warning pull-right">20</span>
-                    </a> 
-                    <ul class="collapse collapseable" id="collapse-post">
-                        <li><a href="#">Create New</a></li>
-                        <li><a href="#">View Articles</a></li>
-                    </ul>
-                </li>
+	  				<li class="link">
+	                    <a data-toggle="collapse" href="#collapse-post" aria-expanded="false" aria-controls="collapse-post">
+	                    	<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+	                    	Articles
+	                    	<span class="label label-warning pull-right">20</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-post">
+	                        <li><a href="#">Create New</a></li>
+	                        <li><a href="#">View Articles</a></li>
+	                    </ul>
+	                </li>
 
-                <li class="link">
-                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
-                    	<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-                    	Comments
-                    </a> 
-                    <ul class="collapse collapseable" id="collapse-comments">
-                        <li><a href="#">Create New</a></li>
-                        <li><a href="#">View Comments</a></li>
-                    </ul>
-                </li>
+	                <li class="link">
+	                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
+	                    	<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+	                    	Comments
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-comments">
+	                        <li><a href="#">Create New</a></li>
+	                        <li><a href="#">View Comments</a></li>
+	                    </ul>
+	                </li>
 
-                <li class="link">
-                    <a data-toggle="collapse" href="#collapse-commenters" aria-expanded="false" aria-controls="collapse-commenters">
-                    	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                    	Commenters
-                    </a> 
-                    <ul class="collapse collapseable" id="collapse-commenters">
-                        <li><a href="#">Create New</a></li>
-                        <li><a href="#">View Comments</a></li>
-                    </ul>
-                </li>
+	                <li class="link">
+	                    <a data-toggle="collapse" href="#collapse-commenters" aria-expanded="false" aria-controls="collapse-commenters">
+	                    	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+	                    	Commenters
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-commenters">
+	                        <li><a href="#">Create New</a></li>
+	                        <li><a href="#">View Comments</a></li>
+	                    </ul>
+	                </li>
 
-                <li class="link settings-btn">
-                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
-                    	<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                    	Settings
-                    </a> 
-                    <ul class="collapse collapseable" id="collapse-comments">
-                        <li><a href="#">Create New</a></li>
-                        <li><a href="#">View Comments</a></li>
-                    </ul>
-                </li>
-  			</ul>
+	                <li class="link settings-btn">
+	                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
+	                    	<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+	                    	Settings
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-comments">
+	                        <li><a href="#">Create New</a></li>
+	                        <li><a href="#">View Comments</a></li>
+	                    </ul>
+	                </li>
+	  			</ul>
+	  		</div>
+
+	  		<div class="col-md-10 col-md-height" id="right-col">
+	  			<div class="row">
+			  		<div id="nav-header">
+			  			<header class="clearfix">
+			  				<div class="col-md-4"><input type="text" placeholder="Search for something..."></div>
+			  				<div class="col-md-8">
+			  					<ul>
+			  						<li id="welcome">Welcome to your administration area</li>
+			  						<li>
+			  							<a href="#">
+			  								<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+			  								<span class="label label-warning">3</span>
+			  							</a>
+			  						</li>
+			  						<li>
+			  							<a href="#">
+			  								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			  								<span class="label label-message">3</span>
+			  							</a>
+			  						</li>
+			  						<li>
+			  							<a href="#" class="logout">
+			  								<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+			  								Log out
+			  							</a>
+			  						</li>
+			  					</ul>
+			  				</div>
+			  			</header>
+			  		</div>
+		  		</div>
+
+
+		  		<div id="content">
+		  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt velit diam, sit amet lobortis nulla lobortis quis. Sed efficitur vel tortor eget luctus. Donec tristique egestas leo ac laoreet. Fusce vel posuere metus, non vulputate augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec libero dui, aliquam sed lectus malesuada, eleifend vehicula dolor. Nunc eget ipsum eu metus vehicula condimentum at vel nisi. Fusce luctus congue nisi eget pretium. Fusce hendrerit leo enim, quis ultricies leo dapibus feugiat.
+
+		  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sapien ligula, condimentum ac pretium eget, auctor ac sem. Ut et fringilla eros, eget venenatis orci. Etiam feugiat tortor libero, at tincidunt turpis viverra eget. Praesent et est sed leo dapibus rutrum sit amet varius diam. Suspendisse ut leo finibus, imperdiet sapien ac, elementum dolor. Ut laoreet consequat magna vitae tempus. Phasellus vitae dolor eget purus suscipit volutpat a vitae nisl. Nam at semper nunc. Duis euismod nisl lacus, ac tristique ipsum imperdiet et. Vivamus tincidunt, orci eget suscipit varius, lectus nisl fermentum arcu, sed rutrum massa nulla nec felis. Nulla sem odio, pretium a commodo vel, euismod a dolor. Morbi vitae lectus nibh. Donec vel tincidunt lorem.
+
+					Duis suscipit elementum condimentum. Phasellus feugiat felis sed pulvinar blandit. Mauris porta lacus in ipsum tristique, nec dictum nibh maximus. In bibendum mollis metus, aliquam porttitor mi. Ut eget dolor felis. Nulla facilisi. Curabitur ornare, turpis in venenatis fermentum, arcu urna vestibulum leo, vehicula dictum ex tellus a odio. Nulla fringilla metus metus, quis semper nisl pulvinar ac. Proin turpis sem, ullamcorper eu egestas quis, aliquet vitae lorem. Vivamus eu magna et ipsum volutpat fermentum ut volutpat quam. Nunc pharetra, velit vel aliquet tincidunt, lorem mauris viverra quam, id efficitur quam arcu id massa. Curabitur ut mauris ut justo sodales convallis vel vitae orci.
+
+					Nunc volutpat gravida sapien ut finibus. Ut scelerisque eleifend venenatis. Donec lobortis mauris libero, quis facilisis augue dapibus non. Curabitur id elementum augue, in sodales massa. Mauris id vehicula risus. Nulla sed luctus lacus. Curabitur rhoncus turpis ac arcu iaculis, eget posuere eros fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi molestie congue purus dapibus convallis. Duis turpis nulla, tincidunt ut tellus non, facilisis ullamcorper lectus. Sed sit amet eros id magna pharetra ultrices eget at tortor. Nam consequat vehicula orci ut egestas.
+
+					Pellentesque aliquet, tortor eu sagittis lacinia, ex nibh aliquet velit, et congue nulla est imperdiet elit. Fusce blandit at leo pulvinar maximus. Proin id commodo justo, vitae scelerisque felis. Donec id rutrum est. Nunc efficitur nec augue et pulvinar. Fusce dictum elementum purus, non semper massa mollis non. Quisque dui orci, semper eget nulla elementum, venenatis interdum nulla. Fusce molestie lacus eros, vitae interdum sapien mattis ac. Curabitur sed porta est.
+
+					Donec dignissim pulvinar mattis. Morbi sit amet fringilla nibh. Donec a dapibus enim. Curabitur porta nec metus ac dapibus. Aenean tortor urna, rhoncus vel volutpat vel, auctor at odio. Vivamus sed tincidunt est. Morbi bibendum efficitur arcu a fermentum. Suspendisse elementum non arcu ut ullamcorper.
+
+					
+		  		</div>
+
+				<footer id="admin-footer" class="clearfix">
+					<div class="pull-left">sd</div>
+					<div class="pull-right">fsdf</div>
+				</footer>
+	  		</div>
   		</div>
-
-  		<div class="col-md-10" id="nav-header">
-  			<header>
-  				<div class="col-md-4"><input type="text" placeholder="Search for something..."></div>
-  				<div class="col-md-8">
-  					<ul>
-  						<li id="welcome">Welcome to your administration area</li>
-  						<li>
-  							<a href="#">
-  								<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
-  								<span class="label label-warning">3</span>
-  							</a>
-  						</li>
-  						<li>
-  							<a href="#">
-  								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-  								<span class="label label-message">3</span>
-  							</a>
-  						</li>
-  						<li>
-  							<a href="#" class="logout">
-  								<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
-  								Log out
-  							</a>
-  						</li>
-  					</ul>
-  				</div>
-  			</header>
-  		</div>
-  		
   	</div>
 
 
@@ -118,8 +144,3 @@
     <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
-
-
-
-
-
