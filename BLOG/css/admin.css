@@ -238,3 +238,16 @@ html, body {
 	height: 31px;
 	border: 1px #e7eaec solid;
 }
+
+.search-row {
+	margin-bottom: 30px;
+}
+
+.article-row p {
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.content-inner {
+	padding: 15px;
+}
