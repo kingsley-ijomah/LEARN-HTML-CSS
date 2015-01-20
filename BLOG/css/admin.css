@@ -214,13 +214,13 @@ html, body {
 	font-weight: bold;
 }
 
-.refresh {
+.btn-default {
 	padding: 4px 10px;
 	color: #888;
 	border: 1px #e7eaec solid;
 }
 
-.refresh:hover {
+.btn-default:hover {
 	padding: 4px 10px;
 	background-color: #fff;
 	color: #888;
