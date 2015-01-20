@@ -162,7 +162,6 @@ html, body {
 
 #content {
 	margin: 20px 0px;
-	min-height: 70px;
 	padding-bottom: 30px;
 	background-color: #fff;
 	border-top: 4px #e7eaec solid;
@@ -243,11 +242,40 @@ html, body {
 	margin-bottom: 30px;
 }
 
+.article-row {
+	padding: 10px;
+}
+
+.article-row .control-btns {
+	padding-top: 5px;
+}
+
+.article-row .article-status {
+	padding-top: 10px;
+}
+
+.article-row:hover {
+	background-color: #f3f3f4; 
+}
+
 .article-row p {
 	margin-bottom: 0px;
 	font-weight: bold;
 }
 
+.label-success {
+	padding: 5px 10px;
+	background-color: #1ab394;
+}
+
+.label-default {
+	padding: 5px 10px;
+}
+
 .content-inner {
 	padding: 15px;
+}
+
+.pagination a {
+	color: #1ab394 !important;
 }
