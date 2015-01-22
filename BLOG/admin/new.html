@@ -10,6 +10,13 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../vendor/chosen_v1.3.0/chosen.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/admin.css">
+
+    <!-- Get font-awesome css linked in -->
+	<link rel="stylesheet" href="../vendor/font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<!-- include summernote css/js-->
+	<link href="../vendor/summernote/dist/summernote.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -141,7 +148,7 @@
 
 		  						<div class="form-group">
 		  							<label class="sr-only">Article</label>
-          							<textarea class="form-control" placeholder="Article" rows="9" name="article"></textarea>
+          							<textarea class="form-control" id="summernote" placeholder="Article" rows="9" name="article"></textarea>
 		  						</div>
 
 		  						<button type="submit" class="btn btn-primary">Submit</button>
@@ -170,6 +177,7 @@
 
     <script src="../vendor/chosen_v1.3.0/chosen.jquery.min.js"></script>
 
+    <script src="../vendor/summernote/dist/summernote.min.js"></script>
 
     <!-- Configure chosen helper -->
     <script type="text/javascript">
@@ -183,6 +191,12 @@
       for (var selector in config) {
         $(selector).chosen(config[selector]);
       }
+    </script>
+
+    <script type="text/javascript">
+    	$(document).ready(function() {
+		  $('#summernote').summernote();
+		});
     </script>
 
   </body>
