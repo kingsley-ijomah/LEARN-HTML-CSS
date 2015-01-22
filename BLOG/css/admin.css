@@ -162,8 +162,7 @@ html, body {
 }
 
 #content {
-	margin: 20px 0px;
-	padding-bottom: 30px;
+	margin: 20px 0px 50px 0px;
 	background-color: #fff;
 	border-top: 4px #e7eaec solid;
 }
