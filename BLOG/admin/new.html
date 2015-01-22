@@ -129,7 +129,7 @@
 
 		  			<div class="content-inner">
 		  				<div class="form-wrapper">
-		  					<form>
+		  					<form class="clearfix">
 		  						<div class="form-group">
 		  							<label class="sr-only">Title</label>
 		  							<input type="text" class="form-control" id="title" placeholder="Title">	
@@ -148,10 +148,16 @@
 
 		  						<div class="form-group">
 		  							<label class="sr-only">Article</label>
-          							<textarea class="form-control" id="summernote" placeholder="Article" rows="9" name="article"></textarea>
+          							<textarea class="form-control summernote" placeholder="Article" name="article"></textarea>
 		  						</div>
 
-		  						<button type="submit" class="btn btn-primary">Submit</button>
+		  						<div class="checkbox">
+								    <label>
+								      <input type="checkbox"> publish article when I click on save
+								    </label>
+								  </div>
+
+		  						<button type="submit" class="btn btn-primary pull-right">Save / Publish</button>
 		  					</form>
 		  				</div>
 		  			</div>
@@ -195,7 +201,9 @@
 
     <script type="text/javascript">
     	$(document).ready(function() {
-		  $('#summernote').summernote();
+		  $('.summernote').summernote({
+				height: 200
+		    });
 		});
     </script>
 

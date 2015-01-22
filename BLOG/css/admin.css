@@ -232,7 +232,7 @@ html, body {
 	border: 1px #f3f3f4 solid;
 }
 
-.search-field {
+.search-fields {
 	height: 31px;
 	border: 1px #e7eaec solid;
 }
@@ -297,6 +297,11 @@ html, body {
 	padding: 20px;
 }
 
-.form-group {
-	width: 60%;
+.note-editable {
+	background-color: #fff;
+}
+
+.note-editable {
+	font-size: 20px;
+	font-weight: normal;
 }
