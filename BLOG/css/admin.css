@@ -195,7 +195,6 @@ html, body {
 #content header {
 	border-bottom: 1px #f3f3f4 solid;
 	padding: 10px 0px;
-	margin-bottom: 20px;
 }
 
 .btn-primary {
@@ -280,7 +279,7 @@ html, body {
 }
 
 .content-inner {
-	padding: 15px;
+	padding: 20px;
 }
 
 .pagination a {
@@ -291,4 +290,13 @@ html, body {
 	.article-title {
 		padding-left: 25px;
 	}
+}
+
+.form-wrapper {
+	background-color: #eee;
+	padding: 20px;
+}
+
+.form-group {
+	width: 60%;
 }
