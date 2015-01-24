@@ -305,3 +305,12 @@ html, body {
 	font-size: 20px;
 	font-weight: normal;
 }
+
+.comments-row {
+	border-bottom:1px solid #eee;
+	margin-bottom: 15px;
+}
+
+.comments-row:last-child {
+	border: none;
+}
