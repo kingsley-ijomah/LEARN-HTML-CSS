@@ -213,13 +213,11 @@ html, body {
 }
 
 .btn-default {
-	padding: 4px 10px;
 	color: #888;
 	border: 1px #e7eaec solid;
 }
 
 .btn-default:hover {
-	padding: 4px 10px;
 	background-color: #fff;
 	color: #888;
 	border: 1px #eee solid;
@@ -313,4 +311,12 @@ html, body {
 
 .comments-row:last-child {
 	border: none;
+}
+
+.commenter-period {
+	font-size: 12px;
+}
+
+.comments-well {
+	margin-top: 10px;
 }
