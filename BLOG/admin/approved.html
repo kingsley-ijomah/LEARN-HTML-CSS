@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADMIN</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+    <link rel="stylesheet" href="../vendor/font-awesome-4.2.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="container-fluid container-md-height">
+  		<div class="row clearfix row-md-height">
+	  		<div class="col-md-2 hidden-xs col-md-height" id="side-menu">
+	  			<h1 class="hidden-xs hidden-sm">Navigation</h1>
+	  			<ul>
+	  				<li class="link">
+	                    <a data-toggle="collapse" href="#collapse-dashboard" aria-expanded="false" aria-controls="collapse-dashboard">
+	                    	<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+	                    	<span class="hidden-xs hidden-sm">Dashboard</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-dashboard">
+	                        <li><a href="index.html">Dashboard</a></li>
+	                    </ul>
+	                </li>
+
+	  				<li class="link">
+	                    <a data-toggle="collapse" href="#collapse-post" aria-expanded="false" aria-controls="collapse-post">
+	                    	<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+	                    	<span class="hidden-xs hidden-sm">Articles</span>
+	                    	<span class="label label-success pull-right  hidden-xs hidden-sm">20</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-post">
+	                        <li><a href="new-article.html">Create New</a></li>
+	                        <li><a href="articles.html">View Articles</a></li>
+	                    </ul>
+	                </li>
+
+	                <li class="link active">
+	                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
+	                    	<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+	                    	<span class="hidden-xs hidden-sm">Comments</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-comments">
+	                        <li>
+	                        	<a href="approved.html">Approved
+	                        	<span class="label label-success pull-right hidden-xs hidden-sm">10</span>
+	                        	</a>
+	                        </li>
+	                        <li>
+	                        	<a href="unapproved.html">Unapproved 
+	                        		<span class="label label-warning pull-right hidden-xs hidden-sm">20</span>
+	                        	</a>
+
+	                        </li>
+	                    </ul>
+	                </li>
+
+	                <li class="link">
+	                    <a data-toggle="collapse" href="#collapse-commenters" aria-expanded="false" aria-controls="collapse-commenters">
+	                    	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+	                    	<span class="hidden-xs hidden-sm">Commenters</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-commenters">
+	                        <li><a href="view-commenters">View Comments</a></li>
+	                    </ul>
+	                </li>
+
+	                <li class="link settings-btn">
+	                    <a data-toggle="collapse" href="#collapse-comments" aria-expanded="false" aria-controls="collapse-comments">
+	                    	<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+	                    	<span class="hidden-xs hidden-sm">Settings</span>
+	                    </a> 
+	                    <ul class="collapse collapseable" id="collapse-comments">
+	                        <li><a href="settings.html">settings</a></li>
+	                    </ul>
+	                </li>
+	  			</ul>
+	  		</div>
+
+	  		<div class="col-md-10 col-md-height" id="right-col">
+	  			<div class="row">
+			  		<div id="nav-header">
+			  			<header class="clearfix">
+			  				<div class="col-xs-2 col-sm-3 col-md-5"><input type="text" placeholder="Search for something..."></div>
+			  				<div class="col-xs-10 col-sm-9 col-md-7">
+			  					<ul>
+			  						<li id="welcome" class="hidden-xs">Welcome to your administration area</li>
+			  						<li>
+			  							<a href="#">
+			  								<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+			  								<span class="label label-warning">3</span>
+			  							</a>
+			  						</li>
+			  						<li>
+			  							<a href="#">
+			  								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			  								<span class="label label-message">3</span>
+			  							</a>
+			  						</li>
+			  						<li>
+			  							<a href="#" class="logout">
+			  								<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+			  								Log out
+			  							</a>
+			  						</li>
+			  					</ul>
+			  				</div>
+			  			</header>
+			  		</div>
+		  		</div>
+
+
+		  		<div id="content" class="clearfix">
+		  			<header class="clearfix">
+		  				<div class="col-xs-4 col-sm-3 col-md-3 title">All comments</div>
+		  				<div class="col-xs-8 col-sm-9 col-md-9"><a href="" class="btn btn-primary btn-xs pull-right">Create new article</a></div>
+		  			</header>
+
+		  			<div class="content-inner">
+			  			<div class="row search-row clearfix">
+			  				<div class="col-md-12">
+			  					<div class="input-group">
+							      <input type="text" class="form-control search-fields" placeholder="Search for...">
+							      <span class="input-group-btn">
+							        <button class="btn btn-default go" type="button">Go!</button>
+							      </span>
+							    </div>
+			  				</div>
+			  			</div>
+
+			  				<div class="comments-row clearfix">
+				  				<div class="col-md-1"><img class="img-circle" src="https://api.fnkr.net/testimg/70x70/00CED1/FFF/?text=70x70"></div>
+				  				<div class="col-md-11">
+				  					<div class="clearfix">
+				  						<div class="pull-left">
+					  						<b>kingsley ijomah</b> posted message on <b>How all things are made...</b><br>
+					  						<small>Today 2:21 pm - 01/06/2015</small>
+					  					</div>
+					  					<div class="pull-right commenter-period">2 days ago</div>
+				  					</div>
+			  						<div class="well well-sm comments-well">
+			  							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id pellentesque massa. Proin ullamcorper dolor lorem, ac tempus lorem aliquet sed. Maecenas faucibus luctus ex, et egestas est. Cras neque diam, aliquam vel ultricies nec, rhoncus a turpis.
+			  						</div>
+			  						<div class="pull-right">
+			  							<a class="btn btn-default btn-xs" href="#" role="button"><i class="fa fa-thumbs-up"></i> Approve</a>
+			  							<a class="btn btn-default btn-xs" href="#" role="button"><i class="fa fa-times"></i> Delete</a>
+			  						</div>
+				  				</div>
+			  				</div>
+
+		  			</div>
+		  		</div>
+
+
+
+				<div class="row">
+					<footer id="admin-footer" class="clearfix">
+						<div class="pull-left"><b>Copyright </b> © 2015</div>
+						<div class="pull-right">admin system</div>
+					</footer>
+				</div>
+	  		</div>
+  		</div>
+  	</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
