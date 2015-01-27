@@ -364,6 +364,8 @@ html, body {
 
 .dashboard-content header {
 	margin-bottom: 20px;
+	border-bottom: 1px #eee solid;
+	padding-bottom: 10px;
 }
 
 .text-link {
@@ -372,4 +374,20 @@ html, body {
 
 .text-link:hover {
 	color: #888;
+}
+
+.commenter-name-dash {
+	font-weight: bold;
+}
+
+.comment-head-dash {
+	margin-bottom: 10px;
+}
+
+.days-dash {
+	font-size: 12px;
+}
+
+.comment-date-dash {
+	color: #999;
 }
