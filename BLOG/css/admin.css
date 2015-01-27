@@ -337,3 +337,39 @@ html, body {
 .comments-well {
 	margin-top: 10px;
 }
+
+.dashboard-content {
+	margin: 20px 0px;
+	background-color: #fff;
+	border-top: 4px #e7eaec solid;
+	padding: 15px;
+}
+
+.dashbord-left-cell {
+	padding-right: 5px;
+}
+
+.dashbord-right-cell {
+	padding-left: 5px;
+}
+
+.box {
+	border:1px red dotted;
+}
+
+.dashboard-content h5 {
+	margin: 0px;
+	padding-top: 3px;
+}
+
+.dashboard-content header {
+	margin-bottom: 20px;
+}
+
+.text-link {
+	color: #888;
+}
+
+.text-link:hover {
+	color: #888;
+}
