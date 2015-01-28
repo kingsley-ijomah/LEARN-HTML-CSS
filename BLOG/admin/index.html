@@ -88,202 +88,205 @@
 	  		</div>
 
 	  		<div class="col-md-10 col-md-height" id="right-col">
-	  			<div class="row">
-			  		<div id="nav-header">
-			  			<header class="clearfix">
-			  				<div class="col-xs-2 col-sm-3 col-md-5"><input type="text" placeholder="Search for something..."></div>
-			  				<div class="col-xs-10 col-sm-9 col-md-7">
-			  					<ul>
-			  						<li id="welcome" class="hidden-xs">Welcome to your administration area</li>
-			  						<li>
-			  							<a href="#">
-			  								<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
-			  								<span class="label label-warning">3</span>
-			  							</a>
-			  						</li>
-			  						<li>
-			  							<a href="#">
-			  								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-			  								<span class="label label-message">3</span>
-			  							</a>
-			  						</li>
-			  						<li>
-			  							<a href="#" class="logout">
-			  								<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
-			  								Log out
-			  							</a>
-			  						</li>
-			  					</ul>
-			  				</div>
-			  			</header>
+	  		
+	  			<div id="dashboard-con">
+		  			<div class="row">
+				  		<div id="nav-header">
+				  			<header class="clearfix">
+				  				<div class="col-xs-2 col-sm-3 col-md-5"><input type="text" placeholder="Search for something..."></div>
+				  				<div class="col-xs-10 col-sm-9 col-md-7">
+				  					<ul>
+				  						<li id="welcome" class="hidden-xs">Welcome to your administration area</li>
+				  						<li>
+				  							<a href="#">
+				  								<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+				  								<span class="label label-warning">3</span>
+				  							</a>
+				  						</li>
+				  						<li>
+				  							<a href="#">
+				  								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+				  								<span class="label label-message">3</span>
+				  							</a>
+				  						</li>
+				  						<li>
+				  							<a href="#" class="logout">
+				  								<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+				  								Log out
+				  							</a>
+				  						</li>
+				  					</ul>
+				  				</div>
+				  			</header>
+				  		</div>
+			  		</div>
+
+			  		<div class="row">
+				  		<div class="col-md-6 dashbord-left-cell">
+				  			<div class="dashboard-content clearfix">
+				  				<header class="clearfix">
+				  					<h5 class="pull-left">Articles</h5>
+				  					<a href="" class="btn btn-primary btn-xs pull-right">Create new article</a>
+				  				</header>
+
+				  				<table class="table table-striped">
+									<thead>
+										<tr>
+											<th>title</th>
+											<th class="text-center">replies</th>
+											<th class="text-center">date</th>
+											<th class="text-center">Actions</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>The first post of many to come...</td>
+											<td class="text-center">20</td>
+											<td class="text-center">2 days ago</td>
+											<td  class="text-center">
+												<a href="" class="btn btn-warning btn-xs">edit</a>
+												<a href="" class="btn btn-primary btn-xs">view</a>
+												<a href="" class="btn btn-danger btn-xs">del</a>
+											</td>
+										</tr>
+										<tr>
+											<td>The first post of many to come...</td>
+											<td class="text-center">2</td>
+											<td class="text-center">2 days ago</td>
+											<td  class="text-center">
+												<a href="" class="btn btn-warning btn-xs">edit</a>
+												<a href="" class="btn btn-primary btn-xs">view</a>
+												<a href="" class="btn btn-danger btn-xs">del</a>
+											</td>
+										</tr>
+										<tr>
+											<td>The first post of many to come...</td>
+											<td class="text-center">20</td>
+											<td class="text-center">2 days ago</td>
+											<td  class="text-center">
+												<a href="" class="btn btn-warning btn-xs">edit</a>
+												<a href="" class="btn btn-primary btn-xs">view</a>
+												<a href="" class="btn btn-danger btn-xs">del</a>
+											</td>
+										</tr>
+										<tr>
+											<td>The first post of many to come...</td>
+											<td class="text-center">20</td>
+											<td class="text-center">2 days ago</td>
+											<td  class="text-center">
+												<a href="" class="btn btn-warning btn-xs">edit</a>
+												<a href="" class="btn btn-primary btn-xs">view</a>
+												<a href="" class="btn btn-danger btn-xs">del</a>
+											</td>
+										</tr>
+										<tr>
+											<td>The first post of many to come...</td>
+											<td class="text-center">20</td>
+											<td class="text-center">2 days ago</td>
+											<td  class="text-center">
+												<a href="" class="btn btn-warning btn-xs">edit</a>
+												<a href="" class="btn btn-primary btn-xs">view</a>
+												<a href="" class="btn btn-danger btn-xs">del</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<a href="" class="pull-right text-link">view all articles</a>
+				  			</div>
+				  		</div>
+
+				  		<div class="col-md-6 dashbord-right-cell">
+				  			<div class="dashboard-content clearfix">
+				  				<header class="clearfix">
+				  					<h5>Comments</h5>
+				  				</header>
+				  				<div class="clearfix comment-head-dash">
+				  					<div class="commenter-name-dash pull-left">Kingsley Ijomah</div>
+				  					<div class="days-dash pull-right">2 days ago</div>
+				  				</div>
+				  				<p class="comment-dash">
+				  					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				  					tempor incididunt ut labore et dolore magna aliqua.
+				  				</p>
+				  				<small class="comment-date-dash">Today 5:60 pm - 12/06/2015</small>
+				  				<hr>
+
+				  				<div class="clearfix comment-head-dash">
+				  					<div class="commenter-name-dash pull-left">Kingsley Ijomah</div>
+				  					<div class="days-dash pull-right">2 days ago</div>
+				  				</div>
+				  				<p class="comment-dash">
+				  					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				  					tempor incididunt ut labore et dolore magna aliqua.
+				  				</p>
+				  				<small class="comment-date-dash">Today 5:60 pm - 12/06/2015</small>
+				  				<hr>
+
+
+								<a href="" class="pull-right text-link">view all comments</a>
+				  			</div>
+				  		</div>
+			  		</div>
+
+			  		<div class="row">
+			  			<div class="col-md-12">
+				  			<div class="dashboard-content clearfix">
+				  				<header class="clearfix">
+				  					<h5>Commenters</h5>
+				  				</header>
+				  				
+				  				<table class="table table-bordered">
+				  					<thead>
+				  						<tr>
+				  							<th>#</th>
+				  							<th>Full Name</th>
+				  							<th>Email</th>
+				  							<th>Status</th>
+				  							<th>Created</th>
+				  							<th>Actions</th>
+				  						</tr>
+				  					</thead>
+
+				  					<tbody>
+				  						<tr>
+				  							<td>1</td>
+				  							<td>Kingsley Ijomah</td>
+				  							<td>kingsley.ijomah@example.com</td>
+				  							<td><a href="" class="label label-default">pending</a></td>
+				  							<td>Today 5:60 pm - 12/06/2015</td>
+				  							<td><a href="" class="label label-danger">Delete</a></td>
+				  						</tr>
+				  						<tr>
+				  							<td>2</td>
+				  							<td>Kingsley Ijomah</td>
+				  							<td>kingsley.ijomah@example.com</td>
+				  							<td><a href="" class="label label-success">active</a></td>
+				  							<td>Today 5:60 pm - 12/06/2015</td>
+				  							<td><a href="" class="label label-danger">Delete</a></td>
+				  						</tr>
+				  						<tr>
+				  							<td>3</td>
+				  							<td>Kingsley Ijomah</td>
+				  							<td>kingsley.ijomah@example.com</td>
+				  							<td><a href="" class="label label-success">active</a></td>
+				  							<td>Today 5:60 pm - 12/06/2015</td>
+				  							<td><a href="" class="label label-danger">Delete</a></td>
+				  						</tr>
+				  						<tr>
+				  							<td>4</td>
+				  							<td>Kingsley Ijomah</td>
+				  							<td>kingsley.ijomah@example.com</td>
+				  							<td><a href="" class="label label-success">active</a></td>
+				  							<td>Today 5:60 pm - 12/06/2015</td>
+				  							<td><a href="" class="label label-danger">Delete</a></td>
+				  						</tr>
+				  					</tbody>
+				  				</table>
+				  			</div>
+				  		</div>
 			  		</div>
 		  		</div>
-
-		  		<div class="row">
-			  		<div class="col-md-6 dashbord-left-cell">
-			  			<div class="dashboard-content clearfix">
-			  				<header class="clearfix">
-			  					<h5 class="pull-left">Articles</h5>
-			  					<a href="" class="btn btn-primary btn-xs pull-right">Create new article</a>
-			  				</header>
-
-			  				<table class="table table-striped">
-								<thead>
-									<tr>
-										<th>title</th>
-										<th class="text-center">replies</th>
-										<th class="text-center">date</th>
-										<th class="text-center">Actions</th>
-									</tr>
-								</thead>
-
-								<tbody>
-									<tr>
-										<td>The first post of many to come...</td>
-										<td class="text-center">20</td>
-										<td class="text-center">2 days ago</td>
-										<td  class="text-center">
-											<a href="" class="btn btn-warning btn-xs">edit</a>
-											<a href="" class="btn btn-primary btn-xs">view</a>
-											<a href="" class="btn btn-danger btn-xs">del</a>
-										</td>
-									</tr>
-									<tr>
-										<td>The first post of many to come...</td>
-										<td class="text-center">2</td>
-										<td class="text-center">2 days ago</td>
-										<td  class="text-center">
-											<a href="" class="btn btn-warning btn-xs">edit</a>
-											<a href="" class="btn btn-primary btn-xs">view</a>
-											<a href="" class="btn btn-danger btn-xs">del</a>
-										</td>
-									</tr>
-									<tr>
-										<td>The first post of many to come...</td>
-										<td class="text-center">20</td>
-										<td class="text-center">2 days ago</td>
-										<td  class="text-center">
-											<a href="" class="btn btn-warning btn-xs">edit</a>
-											<a href="" class="btn btn-primary btn-xs">view</a>
-											<a href="" class="btn btn-danger btn-xs">del</a>
-										</td>
-									</tr>
-									<tr>
-										<td>The first post of many to come...</td>
-										<td class="text-center">20</td>
-										<td class="text-center">2 days ago</td>
-										<td  class="text-center">
-											<a href="" class="btn btn-warning btn-xs">edit</a>
-											<a href="" class="btn btn-primary btn-xs">view</a>
-											<a href="" class="btn btn-danger btn-xs">del</a>
-										</td>
-									</tr>
-									<tr>
-										<td>The first post of many to come...</td>
-										<td class="text-center">20</td>
-										<td class="text-center">2 days ago</td>
-										<td  class="text-center">
-											<a href="" class="btn btn-warning btn-xs">edit</a>
-											<a href="" class="btn btn-primary btn-xs">view</a>
-											<a href="" class="btn btn-danger btn-xs">del</a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<a href="" class="pull-right text-link">view all articles</a>
-			  			</div>
-			  		</div>
-
-			  		<div class="col-md-6 dashbord-right-cell">
-			  			<div class="dashboard-content clearfix">
-			  				<header class="clearfix">
-			  					<h5>Comments</h5>
-			  				</header>
-			  				<div class="clearfix comment-head-dash">
-			  					<div class="commenter-name-dash pull-left">Kingsley Ijomah</div>
-			  					<div class="days-dash pull-right">2 days ago</div>
-			  				</div>
-			  				<p class="comment-dash">
-			  					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			  					tempor incididunt ut labore et dolore magna aliqua.
-			  				</p>
-			  				<small class="comment-date-dash">Today 5:60 pm - 12/06/2015</small>
-			  				<hr>
-
-			  				<div class="clearfix comment-head-dash">
-			  					<div class="commenter-name-dash pull-left">Kingsley Ijomah</div>
-			  					<div class="days-dash pull-right">2 days ago</div>
-			  				</div>
-			  				<p class="comment-dash">
-			  					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			  					tempor incididunt ut labore et dolore magna aliqua.
-			  				</p>
-			  				<small class="comment-date-dash">Today 5:60 pm - 12/06/2015</small>
-			  				<hr>
-
-
-							<a href="" class="pull-right text-link">view all comments</a>
-			  			</div>
-			  		</div>
-
-			  		<div class="col-md-12">
-			  			<div class="dashboard-content clearfix">
-			  				<header class="clearfix">
-			  					<h5>Commenters</h5>
-			  				</header>
-			  				
-			  				<table class="table table-bordered">
-			  					<thead>
-			  						<tr>
-			  							<th>#</th>
-			  							<th>Full Name</th>
-			  							<th>Email</th>
-			  							<th>Status</th>
-			  							<th>Created</th>
-			  							<th>Actions</th>
-			  						</tr>
-			  					</thead>
-
-			  					<tbody>
-			  						<tr>
-			  							<td>1</td>
-			  							<td>Kingsley Ijomah</td>
-			  							<td>kingsley.ijomah@example.com</td>
-			  							<td><a href="" class="label label-default">pending</a></td>
-			  							<td>Today 5:60 pm - 12/06/2015</td>
-			  							<td><a href="" class="label label-danger">Delete</a></td>
-			  						</tr>
-			  						<tr>
-			  							<td>2</td>
-			  							<td>Kingsley Ijomah</td>
-			  							<td>kingsley.ijomah@example.com</td>
-			  							<td><a href="" class="label label-success">active</a></td>
-			  							<td>Today 5:60 pm - 12/06/2015</td>
-			  							<td><a href="" class="label label-danger">Delete</a></td>
-			  						</tr>
-			  						<tr>
-			  							<td>3</td>
-			  							<td>Kingsley Ijomah</td>
-			  							<td>kingsley.ijomah@example.com</td>
-			  							<td><a href="" class="label label-success">active</a></td>
-			  							<td>Today 5:60 pm - 12/06/2015</td>
-			  							<td><a href="" class="label label-danger">Delete</a></td>
-			  						</tr>
-			  						<tr>
-			  							<td>4</td>
-			  							<td>Kingsley Ijomah</td>
-			  							<td>kingsley.ijomah@example.com</td>
-			  							<td><a href="" class="label label-success">active</a></td>
-			  							<td>Today 5:60 pm - 12/06/2015</td>
-			  							<td><a href="" class="label label-danger">Delete</a></td>
-			  						</tr>
-			  					</tbody>
-			  				</table>
-			  			</div>
-			  		</div>
-		  		</div>
-		  		<br>
-		  		<br>
 
 				<div class="row">
 					<footer id="admin-footer" class="clearfix">

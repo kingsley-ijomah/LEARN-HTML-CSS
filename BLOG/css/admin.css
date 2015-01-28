@@ -2,7 +2,7 @@ html, body {
 	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
 	width: 100%;
-	color: #888;
+	color: #676a6c;
 }
 
 .container-fluid {
@@ -111,11 +111,11 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	color: #888;
+	color: #676a6c;
 }
 
 #nav-header ul .glyphicon {
-	color: #888;
+	color: #676a6c;
 }
 
 #nav-header ul .label {
@@ -129,12 +129,12 @@ html, body {
 }
 
 .logout {
-	color: #888;
+	color: #676a6c;
 }
 
 .logout:hover {
 	text-decoration: none;
-	color: #888;
+	color: #676a6c;
 }
 
 #nav-header ul li {
@@ -175,7 +175,7 @@ html, body {
 	background-color: #fff;
 	padding: 10px;
 	font-size: 12px;
-	color: #888;
+	color: #676a6c;
 }
 
 /** Setting Heights */
@@ -214,13 +214,13 @@ html, body {
 }
 
 .btn-default {
-	color: #888;
+	color: #676a6c;
 	border: 1px #e7eaec solid;
 }
 
 .btn-default:hover {
 	background-color: #fff;
-	color: #888;
+	color: #676a6c;
 	border: 1px #eee solid;
 }
 
@@ -338,8 +338,12 @@ html, body {
 	margin-top: 10px;
 }
 
+#dashboard-con {
+	padding-bottom: 100px;
+}
+
 .dashboard-content {
-	margin: 20px 0px;
+	margin-top: 20px;
 	background-color: #fff;
 	border-top: 4px #e7eaec solid;
 	padding: 15px;
@@ -369,11 +373,11 @@ html, body {
 }
 
 .text-link {
-	color: #888;
+	color: #676a6c;
 }
 
 .text-link:hover {
-	color: #888;
+	color: #676a6c;
 }
 
 .commenter-name-dash {
@@ -382,7 +386,11 @@ html, body {
 }
 
 .comment-head-dash {
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+}
+
+.comment-dash {
+	margin-bottom: 5px;
 }
 
 .days-dash {
@@ -401,7 +409,7 @@ html, body {
 
 .settings-row h3 {
 	margin-bottom: 3px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .settings-row p {
