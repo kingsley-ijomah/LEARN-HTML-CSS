@@ -392,3 +392,22 @@ html, body {
 .comment-date-dash {
 	color: #999;
 }
+
+.settings-row {
+	border-bottom: 1px #eee solid;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.settings-row h3 {
+	margin-bottom: 3px;
+	font-size: 18px;
+}
+
+.settings-row p {
+	color: #999;
+}
+
+.small-input {
+	width: 80px;
+}
