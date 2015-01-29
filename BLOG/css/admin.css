@@ -3,6 +3,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	color: #676a6c;
+	background-color: #f3f3f4;
 }
 
 .container-fluid {
@@ -10,7 +11,6 @@ html, body {
 	min-height: 100%;
 	width: 100%;
 	padding: 0px;
-	background-color: #f3f3f4;
 }
 
 #side-menu {
@@ -179,18 +179,28 @@ html, body {
 }
 
 /** Setting Heights */
-.container-md-height {
-    display:table;
+.display-table {
+	display:table;
+	height: 100%;
 }
 
-.row-md-height {
-    display:table-row;
+.display-table-row {
+	display:table-row;
+	height: 100%;
 }
 
-.col-md-height {
-    display:table-cell;
+.display-table-cell {
+	display:table-cell;
+	height: 100%;
     float:none;
-    vertical-align: top;
+}
+
+.valign-top {
+	vertical-align: top;
+}
+
+.valign-middle {
+	vertical-align: middle;
 }
 
 #content header {
@@ -418,4 +428,21 @@ html, body {
 
 .small-input {
 	width: 80px;
+}
+
+#login-con {
+	width: 400px;
+}
+
+#login-con header h4 {
+	margin-bottom: 2px;
+}
+
+#login-con header {
+	margin-bottom: 30px;
+}
+
+#login-con footer {
+	margin-top: 30px;
+	text-align: center;
 }
