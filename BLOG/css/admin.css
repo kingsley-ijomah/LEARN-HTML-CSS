@@ -342,7 +342,7 @@ html, body {
 	padding-bottom: 100px;
 }
 
-.dashboard-content {
+.admin-content-con {
 	margin-top: 20px;
 	background-color: #fff;
 	border-top: 4px #e7eaec solid;
@@ -361,12 +361,12 @@ html, body {
 	border:1px red dotted;
 }
 
-.dashboard-content h5 {
+.admin-content-con h5 {
 	margin: 0px;
 	padding-top: 3px;
 }
 
-.dashboard-content header {
+.admin-content-con header {
 	margin-bottom: 20px;
 	border-bottom: 1px #eee solid;
 	padding-bottom: 10px;
