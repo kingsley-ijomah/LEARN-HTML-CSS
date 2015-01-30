@@ -4299,7 +4299,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: red;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {

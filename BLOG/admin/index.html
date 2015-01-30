@@ -17,6 +17,7 @@
     <![endif]-->
   </head>
   <body>
+
   	<div class="container-fluid display-table">
   		<div class="row clearfix display-table-row">
 	  		<div class="col-md-2 hidden-xs display-table-cell valign-top" id="side-menu">
@@ -92,7 +93,19 @@
 		  			<div class="row">
 				  		<div id="nav-header">
 				  			<header class="clearfix">
-				  				<div class="col-xs-2 col-sm-3 col-md-5"><input type="text" placeholder="Search for something..."></div>
+
+				  				<div class="col-xs-2 col-sm-3 col-md-5">
+				  					<nav class="navbar-default">
+									    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									        <span class="sr-only">Toggle navigation</span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									    </button>
+									</nav>
+
+				  					<input type="text" class="hidden-sm hidden-xs" placeholder="Search for something...">
+				  				</div>
 				  				<div class="col-xs-10 col-sm-9 col-md-7">
 				  					<ul>
 				  						<li id="welcome" class="hidden-xs">Welcome to your administration area</li>

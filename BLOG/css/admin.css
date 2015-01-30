@@ -446,3 +446,16 @@ html, body {
 	margin-top: 30px;
 	text-align: center;
 }
+
+.navbar-default .navbar-toggle {
+	border-color: #1ab394;
+	background-color: #1ab394;
+}
+
+.navbar-toggle .icon-bar {
+	border:1px white solid;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #1ab394;
+}
