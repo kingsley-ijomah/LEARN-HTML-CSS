@@ -18,6 +18,12 @@ html, body {
 	padding: 0px;
 }
 
+@media (max-width: 440px) {
+	#side-menu {
+		display: none;
+	}
+}
+
 #side-menu h1{
 	color: #1f3647;
 	text-align: center;
@@ -278,6 +284,7 @@ html, body {
 	}
 }
 
+
 .label-success {
 	background-color: #1ab394;
 }
@@ -458,4 +465,8 @@ html, body {
 
 .navbar-default .navbar-toggle:hover {
 	background-color: #1ab394;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #1ab394;
 }

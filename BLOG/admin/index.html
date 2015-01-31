@@ -20,7 +20,8 @@
 
   	<div class="container-fluid display-table">
   		<div class="row clearfix display-table-row">
-	  		<div class="col-md-2 hidden-xs display-table-cell valign-top" id="side-menu">
+  			<!-- SIDE MENU -->
+	  		<div class="col-md-2 display-table-cell valign-top" id="side-menu">
 	  			<h1 class="hidden-xs hidden-sm">Navigation</h1>
 	  			<ul>
 	  				<li class="link active">
@@ -95,8 +96,8 @@
 				  			<header class="clearfix">
 
 				  				<div class="col-xs-2 col-sm-3 col-md-5">
-				  					<nav class="navbar-default">
-									    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				  					<nav class="navbar-default visibile-xs-4">
+									    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu">
 									        <span class="sr-only">Toggle navigation</span>
 									        <span class="icon-bar"></span>
 									        <span class="icon-bar"></span>
@@ -315,5 +316,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    	$(document).ready(function () {
+		  $('[data-toggle="offcanvas"]').click(function () {
+		    $('#side-menu').toggle('show');
+		  });
+		});
+    </script>
   </body>
 </html>
