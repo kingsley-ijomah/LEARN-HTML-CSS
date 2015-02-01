@@ -18,11 +18,13 @@ html, body {
 	padding: 0px;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
 	#side-menu {
 		display: none;
 	}
 }
+
+
 
 #side-menu h1{
 	color: #1f3647;
