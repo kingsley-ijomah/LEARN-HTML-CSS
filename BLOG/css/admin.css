@@ -24,7 +24,12 @@ html, body {
 	}
 }
 
-
+@media (min-width: 768px) {
+/*    #side-menu {
+		display: block !important;
+		width: auto;
+   }*/
+}
 
 #side-menu h1{
 	color: #1f3647;
