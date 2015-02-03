@@ -18,19 +18,6 @@ html, body {
 	padding: 0px;
 }
 
-@media (max-width: 500px) {
-	#side-menu {
-		display: none;
-	}
-}
-
-@media (min-width: 768px) {
-/*    #side-menu {
-		display: block !important;
-		width: auto;
-   }*/
-}
-
 #side-menu h1{
 	color: #1f3647;
 	text-align: center;
