@@ -1,0 +1,7 @@
+.box {
+	border: 1px red dotted;
+}
+
+.container {
+	max-width: 1000px;
+}
