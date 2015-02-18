@@ -5,3 +5,27 @@
 .container {
 	max-width: 1000px;
 }
+
+.profile {
+	margin-right: 40px;
+}
+
+.profile aside p {
+	font-size: 12px;
+}
+
+.profile aside ul li {
+	float: left;
+	margin-right: 8px;
+}
+
+.profile aside ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.profile aside ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
