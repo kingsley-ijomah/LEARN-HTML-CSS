@@ -23,9 +23,3 @@
 	list-style: none;
 	padding: 0px;
 }
-
-.profile aside ul:after {
-	content: "";
-	display: block;
-	clear: both;
-}
