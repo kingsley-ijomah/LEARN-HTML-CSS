@@ -9,7 +9,6 @@
     <!-- Bootstrap -->
     <link href="vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/posts.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +35,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Posts <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="posts.html">Posts <span class="sr-only">(current)</span></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="archive.html">Archive</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -89,6 +88,7 @@
 
           <div id="comments">
             <h2>Comments</h2>
+
             <div class="row">
               <div class="col-md-11">
                 <p>
@@ -102,6 +102,26 @@
               </div>
               <div class="col-md-1">01</div>
             </div>
+
+            <form>
+              <h3>Have your say</h3>
+              <p>
+                <label class="sr-only">Message</label>
+                <textarea class="form-control" placeholder="Message" id="message" required autocomplete="false"></textarea>
+              </p>
+
+              <p>
+                <label class="sr-only">Full name</label>
+                <input type="text" class="form-control" placeholder="Full Name" required>
+              </p>
+
+              <p>
+                <label class="sr-only">Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" required>
+              </p>
+
+              <p><input type="submit" value="Send Message" class="btn btn-primary"></p>
+            </form>
           </div>
         </div>
       </div>
