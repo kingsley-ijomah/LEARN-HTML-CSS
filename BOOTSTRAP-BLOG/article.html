@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,7 +89,6 @@
 
           <div id="comments">
             <h2>Comments</h2>
-
             <div class="row">
               <div class="col-md-11">
                 <p>
@@ -100,7 +100,7 @@
                 </footer>
                 <hr>
               </div>
-              <div class="col-md-1">01</div>
+              <div class="col-md-1 comment-num">01</div>
             </div>
 
             <form>
@@ -111,7 +111,7 @@
               </p>
 
               <p>
-                <label class="sr-only">Full name</label>
+                <label class="sr-only">Full Name</label>
                 <input type="text" class="form-control" placeholder="Full Name" required>
               </p>
 
@@ -120,7 +120,7 @@
                 <input type="email" class="form-control" placeholder="Email Address" required>
               </p>
 
-              <p><input type="submit" value="Send Message" class="btn btn-primary"></p>
+              <p><input type="submit" class="btn btn-primary" value="Send Message"></p>
             </form>
           </div>
         </div>
