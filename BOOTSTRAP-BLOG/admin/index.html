@@ -26,16 +26,16 @@
           <h1>Navigation</h1>
         </div>
         <!-- main content area -->
-        <div class="col-md-10 display-table-cell valign-top box">
+        <div class="col-md-10 display-table-cell valign-top">
           <div class="row">
-            <header>
+            <header id="nav-header" class="clearfix">
               <div class="col-md-5">
-                <input type="text" placeholder="Search for something...">
+                <input type="text" id="header-search-field" placeholder="Search for something...">
               </div>
 
               <div class="col-md-7">
-                <ul>
-                  <li>Welcome to your administration area</li>
+                <ul class="pull-right">
+                  <li id="welcome">Welcome to your administration area</li>
                   <li>
                     <a href="#">
                       <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
@@ -51,7 +51,7 @@
                   </li>
 
                   <li>
-                    <a href="#">
+                    <a href="#" class="logout">
                       <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
                       log out
                     </a>
