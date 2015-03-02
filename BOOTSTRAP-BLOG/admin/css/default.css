@@ -25,6 +25,7 @@ html, body {
 	display: table;
 	padding: 0px;
 	height: 100%;
+	width: 100%;
 }
 
 .display-table-row {
@@ -90,4 +91,24 @@ html, body {
 
 #nav-header #welcome {
 	margin-right: 20px;
+}
+
+#nav-header ul .label {
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+
+#nav-header .fixed-width {
+	width: 35px;
+}
+
+#admin-footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 12px;
+	color: #676a6c;
 }
