@@ -1,7 +1,11 @@
 html, body {
-	font-family: "open sans", "Helvitica Neue", Helvetica, Arial, sans-serif;
-	color: #676a6c;
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #f3f3f4;
+	color: #676a6c;
+}
+
+.box {
+	border: 1px red dotted;
 }
 
 #side-menu {
@@ -14,9 +18,4 @@ html, body {
 	text-align: center;
 	margin: 10px 0px;
 	font-size: 25px;
-}
-
-
-.box {
-	border:1px red dotted;
 }
