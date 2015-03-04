@@ -47,6 +47,7 @@ html, body {
 }
 
 #side-menu .active a {
+	color: #fff;
 	background-color: #293846;
 }
 
@@ -70,8 +71,7 @@ html, body {
 #side-menu .collapseable a {
 	color: #9fb1c2;
 	font-size: 12px;
-	padding-left:20px;
-	padding-right: 20px;
+	padding: 0px 10px;
 	text-decoration: none;
 	display: block
 }
