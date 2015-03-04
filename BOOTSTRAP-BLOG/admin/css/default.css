@@ -21,6 +21,74 @@ html, body {
 	font-size: 25px;
 }
 
+#side-menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.link > a {
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #9fb1c2;
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+}
+
+.link > a > .glyphicon {
+	margin-right: 6px;
+}
+
+.link > a:hover {
+	background-color: #293846;
+	display: block;
+	color: #fff;
+}
+
+#side-menu .active {
+	background-color: #293846;
+}
+
+#side-menu .settings-btn {
+	background-color: #1ab394;
+}
+
+#side-menu .settings-btn > a {
+	color: #fff;
+}
+
+#side-menu .settings-btn > a:hover {
+	background-color: #1ab394;
+}
+
+#side-menu .collapseable li {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+#side-menu .collapseable a {
+	color: #9fb1c2;
+	font-size: 12px;
+	padding-left:20px;
+	padding-right: 20px;
+	text-decoration: none;
+	display: block
+}
+
+#side-menu .collapseable a:hover {
+	color: #fff;
+}
+
+#side-menu .collapseable {
+	border-left: 4px solid #1ab394;
+	background-color: #293846;
+}
+
+#side-menu .link > ul > li {
+	padding-bottom: 10px;
+}
+
 .display-table {
 	display: table;
 	padding: 0px;
