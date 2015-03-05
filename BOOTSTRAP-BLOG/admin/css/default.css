@@ -201,3 +201,25 @@ html, body {
 .navbar-default .navbar-toggle:focus {
 	background-color: #1ab394;
 }
+
+#content {
+	margin: 20px 0px 50px 0px;
+	background-color: #fff;
+	border-top: 4px #e7eaec solid;
+}
+
+#content header {
+	border-bottom: 1px #f3f3f4 solid;
+	padding: 10px 0px;
+}
+
+.page_title {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px 0px 0px 20px;
+	margin: 0px;
+}
+
+.content-inner {
+	padding: 20px;
+}
