@@ -8,6 +8,8 @@
 
     <!-- Bootstrap -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../vendor/chosen_v1.4.0/chosen.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" type="text/css" href="css/new-article.css">
 
@@ -147,7 +149,7 @@
 
                   <div class="form-group">
                     <label class="sr-only">Tags</label>
-                    <select data-placeholder="Select tags" multiple name="tags" class="form-control">
+                    <select data-placeholder="Select tags" multiple name="tags" class="form-control chosen-select">
                       <option></option>
                       <option>html</option>
                       <option>css</option>
@@ -189,6 +191,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../vendor/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="../vendor/chosen_v1.4.0/chosen.jquery.min.js"></script>
+
     <script src="js/default.js"></script>
+
+    <script type="text/javascript">
+      var config = {
+        '.chosen-select' : {},
+        '.chosen-select-deselect' : {allow_single_deselect: true},
+        '.chosen-select-no-single': {disable_search_threshold: 10},
+        '.chosen-select-no-result': {no_results_text: 'Oops, nothing found!'},
+        '.chosen-select-width' : {width: "95%"}
+      }
+      for (var selector in config) {
+        $(selector).chosen(config[selector]);
+      }
+    </script>
   </body>
 </html>
