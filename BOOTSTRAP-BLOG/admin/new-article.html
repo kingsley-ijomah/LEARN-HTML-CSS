@@ -9,6 +9,8 @@
     <!-- Bootstrap -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../vendor/chosen_v1.4.0/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/summernote-master/dist/summernote.css">
 
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" type="text/css" href="css/new-article.css">
@@ -160,7 +162,7 @@
 
                   <div class="form-group">
                     <label class="sr-only">Article</label>
-                    <textarea class="form-control" placeholder="Article" name="article"></textarea>
+                    <textarea class="form-control summernote" placeholder="Article" name="article"></textarea>
                   </div>
 
                   <div class="checkbox">
@@ -192,6 +194,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../vendor/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
     <script src="../vendor/chosen_v1.4.0/chosen.jquery.min.js"></script>
+    <script src="../vendor/summernote-master/dist/summernote.min.js"></script>
 
     <script src="js/default.js"></script>
 
@@ -206,6 +209,12 @@
       for (var selector in config) {
         $(selector).chosen(config[selector]);
       }
+    </script>
+
+    <script type="text/javascript">
+      $('.summernote').summernote({
+        height: 200
+      })
     </script>
   </body>
 </html>
