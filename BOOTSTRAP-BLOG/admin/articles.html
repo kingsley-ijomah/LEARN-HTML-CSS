@@ -131,15 +131,25 @@
           </div>
 
           <div id="content">
-            <header>
-              <h2 class="page_title">Articles</h2>
+            <header class="clearfix">
+              <h2 class="page_title pull-left">Articles</h2>
+              <a href="" class="btn btn-xs btn-primary pull-right">Create new article</a>
             </header>
 
             <div class="content-inner">
-              
+              <div class="row search-row">
+              	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              		<div class="input-group">
+              			<input type="text" class="form-control search-fields" placeholder="Search for..." required="required">
+	              		<span class="input-group-btn">
+		              		<button type="button" class="btn btn-default go">Go!</button>
+		              	</span>
+              		</div>
+              	</div>
+              </div>
             </div>
           </div>
-
+          
           <div class="row">
             <footer id="admin-footer" class="clearfix">
               <div class="pull-left"><b>Copyright </b>&copy; 2015</div>
@@ -149,7 +159,7 @@
         </div>
       </div>
     </div>
-
+    	
 		<!-- jQuery -->
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
