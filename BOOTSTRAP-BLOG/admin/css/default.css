@@ -210,16 +210,36 @@ html, body {
 
 #content header {
 	border-bottom: 1px #f3f3f4 solid;
-	padding: 10px 0px;
+	padding: 10px 15px;
 }
 
 .page_title {
 	font-size: 14px;
 	font-weight: bold;
-	padding: 0px 0px 0px 20px;
 	margin: 0px;
 }
 
 .content-inner {
 	padding: 20px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+	background-color: #1ab394;
+	border-color: #1ab394;
+}
+
+.search-fields {
+	height: 31px;
+	border: 1px #e7eaec solid;
+}
+
+.search-row {
+	margin-bottom: 30px;
+}
+
+.go {
+	background-color: #1ab394;
+	color: #fff;
+	height: 31px;
+	border: 1px #f3f3f4 solid;
 }
