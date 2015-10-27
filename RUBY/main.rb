@@ -1,5 +1,9 @@
 require './lib/person'
 include Greet
 
-introduce 'ken'
-study
+student :world do |s|
+	s.introduce name: :david
+	s.study
+end
+
+# student {|s| s.introduce}
