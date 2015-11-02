@@ -13,6 +13,10 @@ class Dishwasher < Appliances
 		end
 	end
 
+	def self.type
+		p 'Dishwasher'
+	end
+
 	def startable?
 		closed? && power_on?
 	end
