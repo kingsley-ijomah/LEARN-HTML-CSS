@@ -6,6 +6,10 @@ class Microwave < Appliances
 		@timer = timer
 	end
 
+	def self.type
+		p 'Microwave'
+	end
+
 	def start
 		if  startable?
 			p "Microwave Starting..."
