@@ -14,3 +14,8 @@ dishwasher_2 = Dishwasher.new(door: :open, power: :on)
 
 dishwasher_1.start # Starting...
 dishwasher_2.start # Could not...
+
+p "========================="
+
+Microwave.type
+Dishwasher.type
