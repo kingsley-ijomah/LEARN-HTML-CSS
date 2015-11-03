@@ -1,32 +1,31 @@
-require './lib/appliances'
-
-class Microwave < Appliances
-	def initialize door:, power:, timer:
-		super door: door, power: power
+class Microwave
+	def initialize(door:, timer:, power:)
+		@door = door
 		@timer = timer
+		@power = power
 	end
 
-	def self.type
-		p 'Microwave'
-	end
-
-	def self.create door:, power:, timer:
-		Microwave.new(door: door, power: power, timer: timer)
-	end
-
-	def start
-		if  startable?
-			p "Microwave Starting..."
-		else
-			p "Microwave Could not start"
-		end
-	end
-
-	def startable?
-		closed? && power_on? && timer_on?
+	def door_closed?
+		@door == :closed
 	end
 
 	def timer_on?
 		@timer == :on
+	end
+
+	def power_on?
+		@power == :on
+	end
+
+	def start
+		if (door_closed? && timer_on? && power_on?)
+			'Microwave is starting...'
+		else
+			'Microwave could not start...'
+		end
+	end
+
+	def self.create(door:, timer:, power:)
+		Microwave.new(door: door, timer: timer, power: power)
 	end
 end
