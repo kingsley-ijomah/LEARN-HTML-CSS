@@ -1,20 +1,13 @@
-class Microwave
-	def initialize(door:, timer:, power:)
-		@door = door
-		@timer = timer
-		@power = power
-	end
+require './lib/appliances'
 
-	def door_closed?
-		@door == :closed
+class Microwave < Appliances
+	def initialize(door:, timer:, power:)
+		super(door: door, power: power)
+		@timer = timer
 	end
 
 	def timer_on?
 		@timer == :on
-	end
-
-	def power_on?
-		@power == :on
 	end
 
 	def start
