@@ -10,6 +10,10 @@ class Microwave < Appliances
 		p 'Microwave'
 	end
 
+	def self.create door:, power:, timer:
+		Microwave.new(door: door, power: power, timer: timer)
+	end
+
 	def start
 		if  startable?
 			p "Microwave Starting..."
